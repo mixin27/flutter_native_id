@@ -1,4 +1,4 @@
-# native_id
+# NativeId Plugin (Android, iOS)
 
 Get current device unique id from within the flutter application.
 
