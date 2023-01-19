@@ -1,5 +1,5 @@
 name: native_id
-description: A new Flutter plugin project.
+description: Get unique identifier for android and iOS
 version: 0.0.1
 homepage: https://github.com/mixin27/flutter_native_id
 
