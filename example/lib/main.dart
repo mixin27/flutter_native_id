@@ -16,7 +16,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _androidId = 'Unknown';
+  String _nativeId = 'Unknown';
   String _uuid = 'Unknown';
   final _nativeIdPlugin = NativeId();
 
@@ -28,14 +28,14 @@ class _MyAppState extends State<MyApp> {
 
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initPlatformState() async {
-    String androidId;
+    String nativeId;
     String uuid;
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
-      androidId = await _nativeIdPlugin.getId() ?? 'Unknown ANDROID_ID';
+      nativeId = await _nativeIdPlugin.getId() ?? 'Unknown NATIVE_ID';
     } on PlatformException {
-      androidId = 'Failed to get android id.';
+      nativeId = 'Failed to get native id.';
     }
 
     try {
@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
     if (!mounted) return;
 
     setState(() {
-      _androidId = androidId;
+      _nativeId = nativeId;
       _uuid = uuid;
     });
   }
@@ -67,7 +67,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('ANDROID_ID: $_androidId'),
+              Text('NATIVE_ID: $_nativeId'),
               const SizedBox(height: 20),
               Text('UUID: $_uuid'),
             ],

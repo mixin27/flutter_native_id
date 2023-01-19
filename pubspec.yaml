@@ -1,10 +1,10 @@
 name: native_id
 description: A new Flutter plugin project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/mixin27/flutter_native_id
 
 environment:
-  sdk: '>=2.18.6 <3.0.0'
+  sdk: ">=2.18.6 <3.0.0"
   flutter: ">=2.5.0"
 
 dependencies:

@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Get current device Android ID and UUID from within the flutter application.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/mixin27/flutter_native_id'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Mixin27' => 'kyawzayartun.dev@gmail.com' }
+  s.author           = { 'mixin27' => 'kyawzayartun.dev@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'

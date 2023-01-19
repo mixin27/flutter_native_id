@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Unique ID - `ANDROID_ID` for `android` and `identifierForVendor` for `iOS`.
+- UUID - `UUID` for `android` and `identifierForVendor` for `iOS`.
