@@ -11,10 +11,8 @@
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
   if ([@"getId" isEqualToString:call.method]) {
-    // UIDevice *device = [UIDevice currentDevice];
-    // result([[device identifierForVendor] UUIDString] ?: [NSNull null]);
-    NSUUID *identifierForVendor = [[UIDevice currentDevice] identifierForVendor];
-    result([identifierForVendor UUIDString] ?: [NSNull null]);
+    UIDevice *device = [UIDevice currentDevice];
+    result([[device identifierForVendor] UUIDString] ?: [NSNull null]);
   } else {
     result(FlutterMethodNotImplemented);
   }
