@@ -1,6 +1,6 @@
 name: native_id
 description: Get unique identifier for android and iOS
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/mixin27/flutter_native_id
 
 environment:
