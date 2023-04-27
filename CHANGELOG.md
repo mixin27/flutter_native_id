@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Rollback to previous version - `0.0.2`.
+
 ## 0.0.3
 
 - Change function for iOS id.
