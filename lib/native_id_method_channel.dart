@@ -27,10 +27,4 @@ class MethodChannelNativeId extends NativeIdPlatform {
       return null;
     }
   }
-
-  // @override
-  // Future<String?> getPlatformVersion() async {
-  //   final version = await methodChannel.invokeMethod<String>('getPlatformVersion');
-  //   return version;
-  // }
 }

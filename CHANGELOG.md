@@ -1,6 +1,7 @@
 ## 0.0.4
 
-- Rollback to previous version - `0.0.2`.
+- Upgrade flutter constraint to `>=3.1.0 <4.0.0`
+- Change ios implementation using swift
 
 ## 0.0.3
 

@@ -1,5 +1,3 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="dev.mixin27.native_id">
-
+  package="dev.mixin27.native_id">
 </manifest>

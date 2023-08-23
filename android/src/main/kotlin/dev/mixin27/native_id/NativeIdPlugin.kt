@@ -19,8 +19,8 @@ class NativeIdPlugin: FlutterPlugin {
   /// when the Flutter Engine is detached from the Activity
   private lateinit var channel : MethodChannel
 
-  override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
-    setupMethodChannel(binding.binaryMessenger, binding.applicationContext)
+  override fun onAttachedToEngine(flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
+    setupMethodChannel(flutterPluginBinding.binaryMessenger, flutterPluginBinding.applicationContext)
   }
 
   override fun onDetachedFromEngine(binding: FlutterPlugin.FlutterPluginBinding) {
