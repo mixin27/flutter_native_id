@@ -1,8 +1,30 @@
 # NativeId Plugin (Android, iOS)
 
+![Pub Version](https://img.shields.io/pub/v/native_id?style=flat-square&color=3297D1&link=https://pub.dev/packages/native_id)
+[![License: MIT][license_badge]][license_link]
+
 Get current device unique id from within the flutter application.
 
 > **Warning:** In `android`, this plugin use the `ANDROID_ID` that can be change by user for the rooted device.
+
+## Installation 💻
+
+**❗ In order to start using `native_id` you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
+
+Add `native_id` to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  native_id:
+```
+
+Install it:
+
+```sh
+flutter packages get
+```
+
+---
 
 ## Usage
 
@@ -21,3 +43,7 @@ Future<String> getNativeId() async {
     }
 }
 ```
+
+[flutter_install_link]: https://docs.flutter.dev/get-started/install
+[license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[license_link]: https://opensource.org/licenses/MIT

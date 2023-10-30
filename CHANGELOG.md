@@ -1,3 +1,8 @@
+## 0.0.5
+
+- Upgrade `flutter_lints` to `3.0.0`
+- Update `README.md`
+
 ## 0.0.4
 
 - Upgrade flutter constraint to `>=3.1.0 <4.0.0`
