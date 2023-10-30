@@ -23,10 +23,12 @@ abstract class NativeIdPlatform extends PlatformInterface {
     _instance = instance;
   }
 
+  /// Get unique identifier.
   Future<String?> getId() {
     throw UnimplementedError('getId() has not been implemented.');
   }
 
+  /// Get `uuid`.
   Future<String?> getUUID() {
     throw UnimplementedError('getUUID() has not been implemented.');
   }
