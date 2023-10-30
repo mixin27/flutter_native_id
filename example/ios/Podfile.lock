@@ -1,22 +1,28 @@
 PODS:
   - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
   - native_id (0.0.1):
     - Flutter
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
   - native_id (from `.symlinks/plugins/native_id/ios`)
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
   native_id:
     :path: ".symlinks/plugins/native_id/ios"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
-  native_id: 1e5a1cedff93f17644e2af6640647392e0fad0cc
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  native_id: 770b0ff8fa22b88a5b9fc5cda9f56a0280a1f3a2
 
 PODFILE CHECKSUM: 663715e941f9adb426e33bf9376914006f9ea95b
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.13.0

@@ -2,6 +2,14 @@ name: native_id
 description: Get unique identifier for android and iOS
 version: 0.0.5
 homepage: https://github.com/mixin27/flutter_native_id
+issue_tracker: https://github.com/mixin27/flutter_native_id/issues
+funding:
+  - https://www.buymeacoffee.com/kyawzayartun98
+screenshots:
+  - description: "This screenshot shows the result for Android"
+    path: example_android.png
+  - description: "This screenshot shows the result for iOS"
+    path: example_ios.png
 
 environment:
   sdk: ">=3.1.0 <4.0.0"
@@ -25,3 +33,8 @@ flutter:
         pluginClass: NativeIdPlugin
       ios:
         pluginClass: NativeIdPlugin
+
+topics:
+  - imei
+  - unique identifier
+  - utility
