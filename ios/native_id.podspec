@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'native_id'
-  s.version          = '0.0.1'
+  s.version          = '0.0.5'
   s.summary          = 'Flutter Native ID'
   s.description      = <<-DESC
 Get current device Android ID and UUID from within the flutter application.

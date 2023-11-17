@@ -10,11 +10,11 @@ public class NativeIdPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
-    case "getId":
-      let identifierForVendor = UIDevice.current.identifierForVendor?.uuidString
-      result(identifierForVendor)
-    default:
-      result(FlutterMethodNotImplemented)
+      case "getId":
+        let identifierForVendor = UIDevice.current.identifierForVendor?.uuidString
+        result(identifierForVendor)
+      default:
+        result(FlutterMethodNotImplemented)
     }
   }
 }
